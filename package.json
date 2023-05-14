@@ -4,7 +4,7 @@
   "description": "y",
   "main": "g",
   "scripts": {
-    "test": "task1.js    "
+    "test": "console.log(czm)"
   },
   "repository": {
     "type": "git",
