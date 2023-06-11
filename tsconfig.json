@@ -1,9 +1,18 @@
 {
     "compilerOptions": {
-        "target": "es5",
+        "target": "es2017",
         "removeComments": true,
         "outDir": "js",
-        "sourceMap": true,
-        "noImplicitThis":false
+                "sourceMap": true,
+        "noImplicitThis":false,
+        "lib": [
+            "es2018",
+            "dom"
+        ],
+                "module": "CommonJS"
     }
+    
 }
+
+
+
