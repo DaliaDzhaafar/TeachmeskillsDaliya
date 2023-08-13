@@ -4,7 +4,14 @@
   "description": "y",
   "main": "g",
   "scripts": {
-    "test": "console.log(czm)"
+    "test": "mocha --require ts-node/register testmocha17/**/*ts",
+    "test2": "jest test17.jest\test1.spec.ts ",
+    "test3": "mocha --require ts-node/register mocha+chai17/**/*ts",
+    "test4": "jest Hw_18\task1.spec.ts",
+    "test5": "jest Hw_19\task2.spec.ts",
+    "test6": "jest Hw_20\task20.spec.ts",
+    "test7": "jest Hw_20.3\task20.3.spec.ts",
+    "wdio": "wdio run ./wdio.conf.ts"
   },
   "repository": {
     "type": "git",
@@ -14,7 +21,34 @@
     "y"
   ],
   "author": "y",
-  "license": "ISC"
-  
+  "license": "ISC",
+  "dependencies": {
+    "@types/chai": "^4.3.5",
+    "@types/jest": "^29.5.2",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^20.4.2",
+    "@types/selenium-webdriver": "^4.1.15",
+    "@types/superagent": "^4.1.18",
+    "axios": "^1.4.0",
+    "chai": "^4.3.7",
+    "jest": "^29.6.1",
+    "jsonschema": "^1.4.1",
+    "mocha": "^10.2.0",
+    "selenium-webdriver": "^4.10.0",
+    "superagent": "^8.0.9",
+    "ts-jest": "^29.1.1"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.16",
+    "@wdio/allure-reporter": "^8.14.0",
+    "@wdio/cli": "^8.13.14",
+    "@wdio/local-runner": "^8.13.13",
+    "@wdio/mocha-framework": "^8.13.13",
+    "@wdio/spec-reporter": "^8.12.2",
+    "allure-commandline": "^2.23.1",
+    "chromedriver": "^115.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6",
+    "wdio-chromedriver-service": "^8.1.1"
+  }
 }
-

@@ -50,4 +50,5 @@ export class MainPage{
     //         let el = this.driver.findElement(By.xpath("//*[@id='search-page']/div[1]/span"))
     //         await el.click()
     // }
+    //
 }

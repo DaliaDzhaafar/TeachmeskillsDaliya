@@ -1,0 +1,9 @@
+{
+    "CreatedAt": "2023-06-12T13:27:56Z",
+    "Driver": "local",
+    "Labels": null,
+    "Mountpoint": "/var/lib/docker/volumes/Myvol/_data",
+    "Name": "Myvol",
+    "Options": null,
+    "Scope": "local"
+}
