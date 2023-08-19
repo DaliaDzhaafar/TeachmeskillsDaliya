@@ -1,8 +1,8 @@
 import Calculator from "./task1";
 
-//Test2
+//Test1
 function testnumber() {
-let Calculator2 = new Calculator(2,2,"summ")
+let Calculator2 = new Calculator(2,-9,"summ")
 let res6 = Calculator2.calculate()
 if (res6 === 4) {
 console.log("Test passed")
@@ -13,7 +13,7 @@ else
 testnumber()
 //Test2
 function testnumber2() {
-    let Calculator2 = new Calculator(2,3,"reduce")
+    let Calculator2 = new Calculator(2,3.0000009,"reduce")
     let res7 = Calculator2.calculate()
     if (res7 === -1) {
     console.log("Test passed")
@@ -24,7 +24,7 @@ function testnumber2() {
 testnumber2()
 //Test3
 function testnumber3() {
-    let Calculator2 = new Calculator(2,3,"multiply")
+    let Calculator2 = new Calculator(299988877666,0.88883,"multiply")
     let res7 = Calculator2.calculate()
     if (res7 === 6) {
     console.log("Test passed")
@@ -35,7 +35,7 @@ function testnumber3() {
 testnumber3()
 //Test4
 function testnumber4() {
-    let Calculator2 = new Calculator(3,3,"divide")
+    let Calculator2 = new Calculator(3,undefined,"divide")
     let res7 = Calculator2.calculate()
     if (res7 === 1) {
     console.log("Test passed")
@@ -46,7 +46,7 @@ function testnumber4() {
 testnumber4()
 //Test5
 function testnumber5() {
-let Calculator2 = new Calculator(3,3,"divide")
+let Calculator2 = new Calculator(3,6,"divide")
 let res7 = Calculator2.calculate()
 if (res7 === 1) {
 console.log("Test passed")

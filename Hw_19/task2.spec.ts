@@ -9,7 +9,7 @@ describe("Test suite 5", () => {
     await driver.get("https://www.onliner.by/");
     const lifestyle = await driver.findElement(By.xpath("//*[@id='widget-5-1']/div/a[1]"));
     await lifestyle.click()
-    expect(await driver.getTitle()).toBe('Сеты по 21 рублю. В Минске пройдет очередной «Гастрофест»')
+    expect(await driver.getTitle()).toBe('Фоторепортаж «Лакацыя-2023»')
     await driver.sleep(1000);
     await driver.quit()
 })
